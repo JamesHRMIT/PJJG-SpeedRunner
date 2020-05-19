@@ -15,11 +15,11 @@ public class OutofBounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if{ gameObject.transform.position.y <= outOfMap}
+        if( gameObject.transform.position.y <= outOfMap)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(SceneManager.GetSceneByName("SampleScene"));
-            
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+       
         }
     }
 }
