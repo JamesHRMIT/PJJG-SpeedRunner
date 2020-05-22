@@ -37,3 +37,10 @@ public class CountdownTimer : MonoBehaviour
         }
     }
 }
+
+
+// Some code taken and adapted from a Youtube video tutorial, 
+// sections are: variables, void start method and void update method (increment with Delta Time and countdownText ToString
+//Both if statements are origional code
+//answers on scene manager found in unity forums https://answers.unity.com/questions/1406791/how-to-restart-level-when-timer-reaches-0.html
+//youtube channel: Single Sapling Games https://www.youtube.com/watch?v=o0j7PdU88a4

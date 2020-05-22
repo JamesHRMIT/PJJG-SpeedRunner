@@ -16,3 +16,5 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 }
+
+//Code taken and adapted from Youtube video tutorial - Channel: Brackeys https://www.youtube.com/watch?v=zc8ac_qUXQY 
