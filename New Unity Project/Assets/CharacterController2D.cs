@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-
+//Character controller taken from Github used with opensource script provided by Brackeys
+//https://www.youtube.com/watch?v=dwcT-Dch0bA&t=1013s
+//https://github.com/Brackeys/2D-Character-Controller
+//GitHub. 2020. Brackeys/2D-Character-Controller. [online] Available at: 
+//<https://github.com/Brackeys/2D-Character-Controller> [Accessed 1 May 2020].
+//Youtube. 2020. 2D Movement In Unity. [online] Available at: <https://www.youtube.com/watch?v=dwcT-Dch0bA&t=1013s> [Accessed 1 May 2020].
 public class CharacterController2D : MonoBehaviour
 {
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.

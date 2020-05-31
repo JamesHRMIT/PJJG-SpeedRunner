@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Created following the tutorial provided by Brackeys
+//https://www.youtube.com/watch?v=dwcT-Dch0bA&t=1013s
+//Youtube. 2020. 2D Movement In Unity. [online] Available at: <https://www.youtube.com/watch?v=dwcT-Dch0bA&t=1013s> [Accessed 1 May 2020].
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
